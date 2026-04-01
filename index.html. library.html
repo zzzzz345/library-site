@@ -1,0 +1,518 @@
+<!-- <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт библиотеки</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #2F4F4F
+        }
+
+        .welcome {
+            color: white;
+            height: 200px;
+            text-align: center;
+            padding-top: 70px;
+            background-image: url("https://miro.medium.com/1*6Jp3vJWe7VFlFHZ9WhSJng.jpeg");
+            
+        }
+
+        .buttons {
+            text-align: center; 
+            margin: 20px;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+        }
+
+        section {
+            padding: 30px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            background-color: #F5F5F5
+        }
+
+        img {
+              max-width: 100%;
+              height: auto;
+              display: block;
+              margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="welcome">
+    <h1>Добро пожаловать в Biblioteka!</h1>
+    <p>Образовательный портал нового поколения. Автоматизированный процесс библиотечного дела.</p>
+</div>
+
+<div class="buttons">
+    <a href="#main"><button>Главная</button></a>
+    <a href="#lib"><button>О библиотеке</button></a>
+    <a href="#catalog"><button>Каталог книг</button></a>
+    <a href="#contacts"><button>Контакты</button></a>
+</div>
+
+<section id="main">
+    <h2><font face="CURSIVE">Главная</h2></font>
+    <p> Наша библиотека - это пространство знаний, вдохновения и развития. Здесь собраны книги на любой вкус: от классической литературы до современных изданий, от учебных пособий до научно-популярных книг.</p>
+    <p>Мы стремимся сделать чтение доступным и интересным для каждого. Библиотека - это не только книги, но и место для учёбы, творчества и спокойного общения.</p>
+<p>У нас вы можете:</p>
+
+<ul type= "square"> 
+    <li>Найти нужную литературу для учёбы и саморазвития</li>
+    <li>Быстро ориентироваться в книжном фонде</li>
+    <li>Расширять кругозор и получать новые знания</li>
+    <li>Пользоваться электронными ресурсами</li>
+<p><font face="cambria"><font size="3,5">Читайте, узнавайте новое и открывайте для себя мир книг вместе с нами!</p></font></font>
+</section>
+
+<section id="lib">
+    <h2><font face="CURSIVE">О библиотеке</h2></font>
+    <p><b>Biblioteka</b> - это современная библиотека, объединяющая традиции чтения и новые технологии. Мы создали пространство, где каждый может найти полезную и интересную информацию для учёбы, работы и личного развития.</p>
+    <p>Наш фонд включает художественную, учебную, научную и справочную литературу. Библиотека постоянно пополняется новыми изданиями, чтобы соответствовать требованиям времени и интересам читателей.</p>
+    <p>Мы стремимся развивать культуру чтения, поддерживать стремление к знаниям и создавать комфортную атмосферу для посетителей. Biblioteka открыта для всех, кто ценит книги, образование и саморазвитие.</p>
+    <p>Наша миссия - сделать знания доступными каждому.</p>
+    <img src="https://cdn.prod.website-files.com/604a97c70aee09eed25ce991/61897a35583a9b51db018d3e_MartinPublicSeating-97560-Importance-School-Library-blogbanner1.jpg" alt="library" width="500" height="300" style="margin:auto;">
+</section>
+
+<section id="catalog">
+    <h2><font face="CURSIVE">Каталог книг</h2></font>
+    <p>В разделе «Каталог книг» представлен полный перечень литературы, доступной в библиотеке Biblioteka. Здесь вы можете быстро найти нужную книгу по названию, автору, жанру или тематике.</p>
+    <p>Каталог включает:</p>
+<ul type= "circle"> 
+    <li>художественную литературу</li>
+    <li> учебные и методические пособия</li>
+    <li> научную и научно-популярную литературу</li>
+    <li>справочники и энциклопедии</li>
+<p>Для удобства пользователей предусмотрена навигация и поиск, которые помогают легко ориентироваться в библиотечном фонде и экономить время.</p>
+<p><em><strong>Каталог регулярно обновляется и пополняется новыми изданиями.</p></em></strong>
+    </section>
+
+<section id="contacts">
+    <h2><font face="CURSIVE">Контакты</h2></font>
+    <p>Имя: Самира</p>
+    <p>Фамилия: Оганова</p>
+    <p>Телефон: +996 504 123 456</p>
+    <p>Email: biblioteka_lib@mail.com</p>
+</section>
+</body>
+</html>           -->
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Biblioteka</title>
+
+
+<style>
+body {
+    margin: 0;
+    font-family: cursive;
+    background: #2F4F4F;
+}
+
+
+header {
+    background: url("https://miro.medium.com/1*6Jp3vJWe7VFlFHZ9WhSJng.jpeg") center/cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+nav {
+    background: #1f3333;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+nav button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+
+nav button:hover,
+nav button.active {
+    background: #F5F5F5;
+    color: black;
+}
+
+
+section {
+    display: none;
+    background: #F5F5F5;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+section.active {
+    display: block;
+}
+
+
+.controls {
+    margin-bottom: 15px;
+}
+
+
+input, select {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+
+.book {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.book img {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 auto 10px;
+}
+
+
+.book-title {
+    font-weight: bold;
+    min-height: 40px;
+}
+
+
+.book-author {
+    font-size: 14px;
+    color: #444;
+}
+
+
+.book button {
+    margin-top: 5px;
+    padding: 6px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+
+.modal-content {
+    background: white;
+    max-width: 650px;  
+    width: 90%;        
+    max-height: 90vh;  
+    overflow-y: auto;  
+    margin: 50px auto;  
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.modal-content img {
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+
+.close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.wishlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.wishlist-item {
+    width: 150px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.wishlist-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+</style>
+</head>
+
+
+<body>
+
+
+<header>
+<h1>Biblioteka</h1>
+<p>Образовательный портал нового поколения. Автоматизированный процесс библиотечного дела.</p>
+</header>
+
+
+<nav>
+<button onclick="show('home')" class="active">Главная</button>
+<button onclick="show('catalog')">Каталог</button>
+<button onclick="show('wishlist')">Список желаемого</button>
+<button onclick="show('account')">Личный кабинет</button>
+<button onclick="show('contacts')">Контакты</button>
+</nav>
+
+
+<section id="home" class="active">
+<h2>Добро пожаловать в Biblioteka</h2>
+<p>
+Biblioteka - это современная библиотека, объединяющая традиционные книжные фонды
+и цифровые технологии. Наш портал создан для удобного поиска, подбора и изучения
+литературы.  
+</p>
+
+
+<h3>Основные направления</h3>
+<ul>
+<li>Художественная и классическая литература</li>
+<li>Учебные пособия для школ и колледжей</li>
+<li>Научные и справочные издания</li>
+<li>Исторические и культурные материалы</li>
+</ul>
+</section>
+
+
+<section id="catalog">
+<h2>Каталог книг</h2>
+
+
+<div class="controls">
+<input type="text" id="search" placeholder="Поиск по названию или автору" onkeyup="renderBooks()">
+<select id="genre" onchange="renderBooks()">
+<option value="">Все категории</option>
+<option>Классика</option>
+<option>Роман</option>
+<option>Учебник</option>
+<option>Наука</option>
+</select>
+</div>
+
+
+<div class="book-grid" id="books"></div>
+</section>
+
+
+<section id="wishlist">
+<h2>Список желаемого</h2>
+<div class="wishlist" id="wishlistContainer"></div>
+</section>
+
+
+<section id="account">
+<h2>Личный кабинет</h2>
+<p>Имя пользователя:</p>
+<input id="username" placeholder="Введите имя"><br><br>
+<p>Пароль:</p>
+<input id="password" type="password" placeholder="Введите пароль"><br><br>
+<button onclick="login()">Войти</button>
+<p id="userInfo"></p>
+</section>
+
+
+<section id="contacts">
+<h2>Контакты</h2>
+<p>Самира Оганова</p>
+<p>📞 +996 504 123 456</p>
+<p>📧 biblioteka_lib@mail.com</p>
+</section>
+
+
+<footer>
+© 2026 Biblioteka
+</footer>
+
+
+<div class="modal" id="modal">
+<div class="modal-content">
+<span class="close" onclick="closeModal()">✖</span>
+<img id="modalImg">
+<h3 id="modalTitle"></h3>
+<p id="modalAuthor"></p>
+<p id="modalGenre"></p>
+<p id="modalDesc"></p>
+</div>
+</div>
+
+
+<script>
+let currentUser = localStorage.getItem("user");
+
+
+let books = [
+{title:"Война и мир", author:"Л. Толстой", genre:"Классика", img:"https://imo10.labirint.ru/books/488632/cover.jpg/242-0", desc:"Эпический роман о судьбах людей на фоне Отечественной войны 1812 года."},
+{title:"Преступление и наказание", author:"Ф. Достоевский", genre:"Классика", img:"https://kniga.lv/icache/233421b7/b6eaa310/2a237b42.jpg", desc:"Роман о нравственном выборе, вине и ответственности."},
+{title:"Мастер и Маргарита", author:"М. Булгаков", genre:"Роман", img:"https://imo10.labirint.ru/books/668307/cover.jpg/242-0", desc:"Философский роман с элементами мистики и сатиры."},
+{title:"1984", author:"Джордж Оруэлл", genre:"Роман", img:"https://imo10.labirint.ru/books/863652/cover.jpg/484-0", desc:"Антиутопия о тоталитарном обществе."},
+{title:"Маленький принц", author:"Антуан де Сент-Экзюпери", genre:"Роман", img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRF_relK9jCe5EiIgvrsrg4h445TJ__DBNQA&s", desc:"Сказка-притча о дружбе, любви и смысле жизни."},
+{title:"Гарри Поттер и философский камень", author:"Дж. К. Роулинг", genre:"Роман", img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrkUDXNuY0rXCcO2mcH46uJ9H-cPT7LU14Uw&s", desc:"Фэнтези о мальчике-волшебнике и его приключениях."},
+{title:"Алхимик", author:"Пауло Коэльо", genre:"Роман", img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAzfk7ZvL_BqFYQwvusDTUT7-BDY7LS5HyCQ&s", desc:"Притча о поиске своего пути и мечты."},
+{title:"Собачье сердце", author:"М. Булгаков", genre:"Роман", img:"https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1522798680i/39713488.jpg", desc:"Сатирическая повесть о природе человека."},
+{title:"Алгебра 10 класс", author:"Ш.Арифджанович", genre:"Учебник", img:"https://online.fliphtml5.com/tacrm/kfzm/files/large/1.webp?1642431875", desc:"Учебное пособие для учащихся старших классов."},
+{title:"Физика для чайников", author:"С.Хольцнер", genre:"Учебник", img:"https://sun9-62.userapi.com/impg/776R0gWhCZHx_Niju5FN9YjKeQ_z2BXZDitRTg/5OSXjus0qR8.jpg?size=429x586&quality=96&sign=329500f22f0839f82bea1f830a2db071&type=album", desc:"Учебное пособие по основам физики."},
+{title:"История Кыргызстана", author:"Осмонов О.", genre:"Наука", img:"https://www.biblioteka.kg/uploads/978-9967-452-32-9.jpg", desc:"Учебник по истории Кыргызстана."},
+{title:"Основы информатики", author:"Ляхович В.Ф.", genre:"Учебник", img:"https://book.ru/external/books_new/939291.jpg", desc:"Учебное пособие по информатике."},
+{title:"Критика чистого разума", author:"Кант", genre:"Наука", img:"https://imo10.labirint.ru/books/588461/cover.jpg/242-0", desc:"Классические труды по философии."}
+];
+
+
+let wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+
+
+function show(id){
+document.querySelectorAll("section").forEach(s=>s.classList.remove("active"));
+document.getElementById(id).classList.add("active");
+document.querySelectorAll("nav button").forEach(b=>b.classList.remove("active"));
+event.target.classList.add("active");
+if(id=="wishlist") renderWishlist();
+}
+
+
+function renderBooks(){
+let search=document.getElementById("search").value.toLowerCase();
+let genre=document.getElementById("genre").value;
+let out="";
+books.forEach((b,i)=>{
+if(
+(b.title.toLowerCase().includes(search)||b.author.toLowerCase().includes(search)) &&
+(genre==""||b.genre==genre)
+){
+out+=`
+<div class="book">
+<img src="${b.img}">
+<div class="book-title">${b.title}</div>
+<div class="book-author">${b.author}</div>
+<div>${b.genre}</div>
+<button onclick="openModal(${i})">Подробнее</button>
+<button onclick="addToWishlist(${i})">Добавить</button>
+</div>`;
+}
+});
+document.getElementById("books").innerHTML=out;
+}
+
+
+function openModal(i){
+let b=books[i];
+document.getElementById("modalImg").src=b.img;
+document.getElementById("modalTitle").innerText=b.title;
+document.getElementById("modalAuthor").innerText="Автор: "+b.author;
+document.getElementById("modalGenre").innerText="Категория: "+b.genre;
+document.getElementById("modalDesc").innerText=b.desc;
+document.getElementById("modal").style.display="block";
+}
+
+
+function closeModal(){
+document.getElementById("modal").style.display="none";
+}
+
+
+function login(){
+let u=document.getElementById("username").value;
+let p=document.getElementById("password").value;
+if(u && p){
+localStorage.setItem("user", u);
+document.getElementById("userInfo").innerText="Вы вошли как: "+u;
+}
+}
+
+
+function addToWishlist(i){
+if(!wishlist.some(b=>b.title==books[i].title)){
+wishlist.push(books[i]);
+localStorage.setItem("wishlist", JSON.stringify(wishlist));
+alert("Книга добавлена в список желаемого!");
+renderWishlist();
+}
+}
+
+
+function removeFromWishlist(i){
+wishlist.splice(i,1);ы
+localStorage.setItem("wishlist", JSON.stringify(wishlist));
+renderWishlist();
+}
+
+
+function renderWishlist(){
+let container=document.getElementById("wishlistContainer");
+container.innerHTML="";
+wishlist.forEach((b,i)=>{
+container.innerHTML+=`
+<div class="wishlist-item">
+<img src="${b.img}">
+<h4>${b.title}</h4>
+<p>${b.author}</p>
+<button onclick="removeFromWishlist(${i})">Удалить</button>
+</div>`;
+});
+}
+
+
+renderBooks();
+if(currentUser){
+document.getElementById("userInfo").innerText="Вы вошли как: "+currentUser;
+}
+</script>
+
+
+</body>
+</html>
